@@ -1,0 +1,60 @@
+// Footer and bottom styles
+
+.footer {
+	padding: 70px 0;
+
+	.block__title {
+		margin-bottom: 20px;
+	}
+
+	.logo-img {
+		display: block;
+		margin-bottom: 15px;
+	}
+}
+
+.newsletter {
+	text-align: right;
+
+	.block__title {
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 24px;
+	}
+
+	form {
+		float: right;
+	}
+}
+
+.bottom {
+	background: #23cb62;
+	color: #fff;
+
+	p {
+		line-height: 2em;
+		margin-bottom: 0;
+		padding: .7rem 1rem;
+	}
+
+	a {
+		color: #fff;
+
+		&:hover,
+		&:focus {
+			opacity: 0.8;
+		}
+	}
+
+	.menu {
+		float: left;
+	}
+
+	.menu > li > a {
+		line-height: 2em;
+	}
+
+	.rights {
+		float: right;
+	}
+}
